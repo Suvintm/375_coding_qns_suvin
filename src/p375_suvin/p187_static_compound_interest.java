@@ -1,0 +1,16 @@
+//187) Write a program to calculate the compound interest using a static method.
+
+package p375_suvin;
+
+public class p187_static_compound_interest {
+    static double interest(double p, double r, double t) {
+        return p * Math.pow(1 + r/100, t) - p;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Compound Interest (p=1000, r=5, t=2): " + String.format("%.2f", interest(1000, 5, 2)));
+    }
+}
+
+//output
+//Compound Interest (p=1000, r=5, t=2): 102.50
