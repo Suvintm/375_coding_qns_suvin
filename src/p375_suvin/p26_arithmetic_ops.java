@@ -1,4 +1,4 @@
-//26) Write a program to perform arithmetic operations (+, -, *, /) on two numbers.
+//26) Write a program to performm arithmetic operations (+, -, *, /) on two numbers.
 
 package p375_suvin;
 
